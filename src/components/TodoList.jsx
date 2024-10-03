@@ -41,8 +41,8 @@ const TodoList = () => {
     };
 
     return (
-        <div className="flex justify-center items-center h-screen bg-black"> 
-            <div className="bg-gray-700 p-8 rounded-md w-96"> 
+        <div className="flex justify-center items-center my-6 bg-black">
+            <div className="bg-gray-700 p-8 rounded-md w-96">
                 <Form createTodo={createTodo} />
                 {
                     todoValue.map((todo, idx) => (
@@ -64,4 +64,5 @@ const TodoList = () => {
 };
 
 export default TodoList;
+
 
